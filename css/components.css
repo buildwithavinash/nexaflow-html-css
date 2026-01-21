@@ -1,0 +1,246 @@
+.btn-primary {
+    background-color: var(--purple);
+    color: var(--black);
+    padding: 12px 12px;
+    border-radius: 8px;
+    display: inline-block;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    color: var(--black);
+}
+
+.ham__menu {
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.ham__menu button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+}
+
+.ham__menu button svg {
+    color: var(--white);
+}
+
+
+
+
+.navbar__logo {
+    font-size: 2.2rem;
+}
+.feature__card {
+    display: flex;
+    max-width: 250px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.feature__card p {
+    text-align: center;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 14px;
+    font-size: 1.3rem;
+    text-align: center;
+    min-width: 250px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+
+/* sidebar - main topbar  */
+
+.sidebar {
+   position: sticky;
+   top: 0;
+   height: 100vh;
+    box-shadow: 10px 0px 12px rgba(0, 0, 0, 0.03);
+    padding: 20px 24px;
+    background-color: var(--purple);
+    color: var(--black);
+    
+}
+
+.sidebar .sidebar__logo {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.sidebar .sidebar__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+.sidebar .sidebar__nav li{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.sidebar__nav li a {
+    display: flex;
+    color: var(--black);
+    align-items: center;
+    gap: 8px;
+}
+
+svg {
+    height: 24px;
+}
+
+
+.main__content {
+     padding: 20px 10px;
+}
+
+.topbar {
+    align-self: center;
+    text-align: center;
+}
+
+.topbar h1 {
+    font-size: 2.4rem;
+    margin-bottom: .4rem;
+    color: var(--purple);
+}
+
+.topbar .topbar__user {
+    font-size: 1.8rem;
+    color: var(--white);
+}
+
+.dashboard__stats {
+    margin-top: 24px;
+    display: grid;
+    padding: 12px 16px;
+    border-radius: 12px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.dashboard__stats .st {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+    background-color: var(--surface);
+}
+
+.st h3 {
+    color: var(--purple);
+}
+
+.st span {
+    color: greenyellow;
+}
+.st strong {
+    color: var(--white);
+}
+
+.main__content .content {
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 16px;
+}
+
+.main__content .content .card {
+    border: 1px solid var(--border);
+    background-color: var(--surface);
+    border-radius: 8px;
+    padding: 16px 24px;
+}
+
+.card__large {
+    text-align: center;
+    min-height: 300px;
+}
+
+.card__large p {
+    color: var(--white);
+}
+
+.fake-chart {
+     margin-top: 16px;
+  height: 400px;
+  background: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.card h2 {
+    text-align: center;
+    color: var(--purple);
+    margin-bottom: 8px;
+}
+
+
+
+.activity__list {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 16px;
+}
+
+.activity__list li {
+    color: var(--white);
+}
+
+.dashboard__table table {
+  width: 100%;
+  border-radius: 8px;
+  border-collapse: collapse;
+  margin-top: 12px;
+  background-color: var(--surface);
+}
+
+.dashboard__table h2 {
+    text-align: center;
+    margin-top: 12px;
+    color: var(--purple);
+    font-size: 2.4rem;
+}
+
+.dashboard__table th,
+.dashboard__table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.dashboard__table th {
+    color: var(--white);
+}
+
+.dashboard__table td {
+    color: var(--white);
+}
+

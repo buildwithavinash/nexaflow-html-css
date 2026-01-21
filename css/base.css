@@ -1,0 +1,109 @@
+:root {
+  /* Foundations */
+  --black: #1f1e2e; /* Your new rich black */
+  --surface: #161618; /* For cards/sections */
+  --border: #27272a;
+
+  /* Brand */
+  --purple: #8a2be1;
+  --white: #f9f9fd;
+
+  /* Typography */
+  --text-main: var(--white);
+  --text-muted: #a1a1aa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-main);
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--purple);
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: var(--black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--white);
+}
+
+p {
+  color: var(--text-muted);
+}
+
+.navbar__logo span {
+  color: var(--purple);
+}
+
+.navbar__links li a {
+  color: var(--white);
+  font-size: 1.1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar__links li:hover a {
+  color: var(--purple);
+}
+
+.stat {
+  color: var(--white);
+}
+
+.hero__content h1 span {
+  color: var(--purple);
+}
+
+.stats__grid .stat {
+  background-color: var(--surface);
+}
+
+.feature__card {
+  background-color: var(--surface);
+}
+
+.mega__container {
+  background-color: var(--purple);
+  padding-bottom: 24px;
+}
+
+.section-header h2,
+.cta h2 {
+  color: var(--black);
+}
+
+.section-header p,
+.cta__content p {
+  color: var(--white);
+}
+
+.section-header .btn-primary {
+  margin-top: 16px;
+  padding: 16px 24px;
+  font-size: 1.8rem;
+  background-color: var(--black);
+  color: var(--purple);
+}
+
+.section-header .btn-primary:hover {
+  color: var(--purple);
+}

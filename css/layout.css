@@ -1,0 +1,139 @@
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+
+header {
+    margin-top: 24px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.06);
+    padding-bottom: 24px;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .navbar__logo {
+    flex: 1;
+}
+
+.navbar .navbar__links {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.navbar .navbar__actions {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+/* hero  */
+
+.hero {
+    margin-top: 48px;
+    padding: 32px;
+    text-align: center;
+}
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__content h1 {
+    font-size: 5rem;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.hero__content p {
+    font-size: 1.8rem;
+    max-width: 500px;
+    text-wrap: wrap;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.hero__content .hero__actions {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+/* features  */
+
+.features {
+    margin-top: 48px;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.section-header {
+    padding: 24px 0;
+}
+
+.section-header h2 {
+    margin-bottom: 12px;
+    font-size: 3rem;
+}
+
+.section-header p {
+    font-size: 1.4rem;
+}
+
+.features__grid {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px;
+    border-radius: 12px;
+    gap: 24px;
+    justify-content: center;
+}
+
+
+/* stats  */
+
+.stats {
+    margin-top: 48px;
+}
+
+.stats__grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 12px 16px;
+    gap: 12px;
+    
+}
+
+
+/* cta */
+
+.cta {
+    margin-top: 48px;
+}
+
+
+
+/* dashboard  */
+
+.layout__container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    min-height: 100vh;
+}

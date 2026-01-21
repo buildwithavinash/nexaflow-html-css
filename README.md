@@ -47,20 +47,6 @@ How small JavaScript can control UI behavior
 
 This project was mainly about building confidence with layouts.
 
-📁 Project Structure
-
-├── index.html        (Landing page)
-├── dashboard.html    (Dashboard page)
-│
-├── css/
-│   ├── base.css        (reset & base styles)
-│   ├── layout.css     (layout structure)
-│   ├── components.css (UI components)
-│   └── responsive.css (responsive styles)
-│
-├── js/
-│   └── main.js        (menu toggle logic)
-
 🚀 What I Want to Improve Next
 
 Add more JavaScript features
